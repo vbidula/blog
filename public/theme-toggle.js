@@ -46,8 +46,12 @@
     // Set initial theme
     applyTheme(getActiveTheme());
 
-    // Attach toggle listener on first load
-    document.addEventListener('astro:page-load', setupThemeToggle);
+    // Attach toggle listener on first load (works even without Astro transitions)
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', setupThemeToggle);
+    } else {
+        setupThemeToggle();
+    }
 
     // Re-apply theme after navigation
     document.addEventListener('astro:after-swap', () => {

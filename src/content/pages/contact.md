@@ -1,14 +1,14 @@
 ---
-title: Get in touch
+title: Contact me
+titleClass: "mb-12 font-serif text-2xl leading-tight font-medium sm:mb-16 sm:text-4xl"
 seo:
   title: Contact
-  description: Get in touch through email or social media! Let me know how I can help.
+  description: Get in touch through email or social media.
 ---
 
-Thank you for reaching out! Whether you have a question, a suggestion, or just want to share your thoughts, I'm all ears. Feel free to get in touch through any of the methods below:
+Drop me an email at
 
-_Email:_
-Feel free to drop me an email at [example@example.com](mailto:example@example.com), and I'll do my best to respond as soon as possible.
+[contact.01@alias.bidula.dev](mailto:contact.01@alias.bidula.dev)
 
-_Social Media:_
-Connect with me on social media as well. Find me on [Twitter](https://twitter.com) or [LinkedIn](https://www.linkedin.com/).
+You can also message me on [LinkedIn](https://www.linkedin.com/in/vadym-bidula/) or [Facebook](https://www.linkedin.com/in/vadym-bidula/), though I'm usually slower to reply there.
+

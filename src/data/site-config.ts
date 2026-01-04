@@ -1,16 +1,16 @@
-import avatar from '../assets/images/avatar.jpg';
-import hero from '../assets/images/hero.jpg';
+// import avatar from '../assets/images/avatar.jpg';
+// import hero from '../assets/images/hero.jpg';
 import type { SiteConfig } from '../types';
 
 const siteConfig: SiteConfig = {
-    website: 'https://example.com',
-    avatar: {
-        src: avatar,
-        alt: 'Ethan Donovan'
-    },
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    website: 'https://bidula.dev',
+    // avatar: {
+    //     src: avatar,
+    //     alt: 'Vadym Bidula'
+    // },
+    title: 'Vadym Bidula',
+    // subtitle: 'Building a radio telescope!',
+    description: 'Personal website and blog',
     image: {
         src: '/dante-preview.jpg',
         alt: 'Dante - Astro.js and Tailwind CSS theme'
@@ -28,28 +28,28 @@ const siteConfig: SiteConfig = {
             text: 'Blog',
             href: '/blog'
         },
+        // {
+        //     text: 'Tags',
+        //     href: '/tags'
+        // },
         {
-            text: 'Tags',
-            href: '/tags'
+            text: 'Contact',
+            href: '/contact'
         }
     ],
     footerNavLinks: [
-        {
-            text: 'About',
-            href: '/about'
-        },
+        // {
+        //     text: 'About',
+        //     href: '/about'
+        // },
         {
             text: 'Contact',
             href: '/contact'
         },
-        {
-            text: 'Terms',
-            href: '/terms'
-        },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
-        }
+        // {
+        //     text: 'Terms',
+        //     href: '/terms'
+        // },
     ],
     socialLinks: [
         {
@@ -66,27 +66,31 @@ const siteConfig: SiteConfig = {
         }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence.\nMy approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products.\nI have a profound appreciation for top-notch software, visual design, and the principles of product-led growth.\n\nFeel free to explore some of my coding endeavors on [GitHub](https://github.com/JustGoodUI/dante-astro-theme) or follow me on [Twitter/X](https://twitter.com/justgoodui).",
-        image: {
-            src: hero,
-            alt: 'A person sitting at a desk in front of a computer'
-        },
-        actions: [
-            {
-                text: 'Get in Touch',
-                href: '/contact'
-            }
-        ]
+        // title: 'Hi & welcome to !',
+        text: `I'm a software/firmware developer with a background in physics and astronomy, based in Montreal.
+
+Right now, I'm helping build a [radio telescope](https://en.wikipedia.org/wiki/Hydrogen_Intensity_and_Real-time_Analysis_eXperiment) in the Karoo.
+
+Have a look around for [projects](/projects) I worked on, or [posts](/blog) about things I'm curious about.`,
+        // image: {
+        //     src: hero,
+        //     alt: 'A person sitting at a desk in front of a computer'
+        // },
+        // actions: [
+        //     {
+        //         text: 'Get in Touch',
+        //         href: '/contact'
+        //     }
+        // ]
     },
-    subscribe: {
-        enabled: true,
-        title: 'Subscribe to Dante Newsletter',
-        text: 'One update per week. All the latest posts directly in your inbox.',
-        form: {
-            action: '#'
-        }
-    },
+    // subscribe: {
+    //     enabled: true,
+    //     title: 'Subscribe to Dante Newsletter',
+    //     text: 'One update per week. All the latest posts directly in your inbox.',
+    //     form: {
+    //         action: '#'
+    //     }
+    // },
     postsPerPage: 8,
     projectsPerPage: 8
 };

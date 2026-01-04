@@ -7,6 +7,12 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
+/* Stable scrollbar spacing across pages */
+html {
+  scrollbar-gutter: stable;
+}
+
+
 :root {
     --text-main: #171717;
     --bg-main: #f2f1ec;
